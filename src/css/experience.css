@@ -1,0 +1,59 @@
+.experience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.experience-details {
+  margin-bottom: 20px;
+}
+
+.experience-details h2 {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.experience-details h4 {
+  margin-top: 5px;
+  color: #712975;
+  margin-left: 20px;
+}
+
+.experience-bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.experience-bullets li {
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.experience-bullets ul {
+  border-left: 2px solid #7d1dcb;
+  padding: 0;
+}
+
+.experience-bullets li {
+  background-color: #6d577f;
+  margin-left: 11px;
+  border: 1px solid #545456;
+  border-radius: 5px;
+  width: 700px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 568px) {
+  .experience-bullets li {
+    width: 300px; /* Adjust width to be automatic or full width on small screens */
+    max-width: calc(
+      100% - 22px
+    ); /* Ensure maximum width minus padding and margins */
+    margin-left: 0; /* Remove left margin */
+    padding: 10px 20px;
+    list-style: square;
+  }
+}
