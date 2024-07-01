@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
 }
 
 .skill_head {
@@ -16,7 +16,7 @@ body {
   margin-top: 80px;
 }
 .footer {
-  background-color: #0000ff;
+  background-color: black;
   color: #fff;
   padding: 20px 0;
   text-align: center;

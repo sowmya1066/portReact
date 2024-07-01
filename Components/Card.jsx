@@ -38,7 +38,7 @@ const Card = ({ title, description }) => {
   const backStyle = {
     transform: "rotateY(180deg)",
     zIndex: 1,
-    backgroundColor: "#c9aedf",
+    backgroundColor: "blue",
     borderRadius: "10px",
     padding: "20px",
     color: "black",

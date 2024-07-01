@@ -1,17 +1,22 @@
 .hero_info h1 {
   line-height: 1.9px;
   margin-bottom: 40px;
-  font-size: 5.1rem;
-  color: #0000ff;
+  font-size: 4rem;
+  color: grey;
 }
-
+.hero_info h2 {
+  color: black;
+}
 .hero_para {
-  line-height: 8.5px;
-  margin-top: 70px;
+  line-height: 1.5px;
+  margin-top: 50px;
   font-size: 1.5rem;
 }
 .hero_para p {
   color: black;
+}
+.hero_info {
+  margin-top: -300px;
 }
 .hero_main {
   display: flex;
@@ -21,16 +26,55 @@
   color: black;
 }
 
-.contact--btn {
-  margin-top: 15px;
-  width: 9em;
-  height: 3em;
-  border-radius: 30em;
-  font-size: 15px;
-  font-family: inherit;
+.hero--img {
+  margin-top: -250px;
+  height: auto;
+  width: 550px;
+  margin-left: 150px;
+}
+.btn--contact {
+  width: 155px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
   border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
 
-  background-color: #0000ff;
+.btn--contact span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  color: white;
+}
+
+.btn-text-ct-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-ct-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn--contact:hover .btn-text-ct-one {
+  top: -100%;
+}
+
+.btn--contact:hover .btn-text-ct-two {
+  top: 50%;
 }
 
 @media only screen and (max-width: 568px) {

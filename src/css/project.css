@@ -29,7 +29,7 @@
   transition: transform 0.6s; /* Smooth transition for transform property */
   position: relative;
   transform-style: preserve-3d; /* Enable 3D transformations */
-  background-color: white;
+  background-color: black;
 }
 
 .container-card {
@@ -47,24 +47,13 @@
   justify-content: center; /* Center text horizontally */
   align-items: center; /* Center text vertically */
   height: 100%; /* Ensure the title takes up full height of its container */
-  color: black;
+  color: white;
 }
 
 .card-description {
   font-size: 14px;
   line-height: 1.4;
-  color: black;
-}
-
-.load-more-btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #0000ff;
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .card:hover {
@@ -97,16 +86,15 @@
   backface-visibility: hidden; /* Hide back side when flipped */
   border-radius: 10px;
   padding: 20px;
-  color: rgba(241, 16, 16, 0.685);
+
   font-family: Arial, sans-serif;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-  background-color: white;
 }
 
-.back {
+.card .back {
   transform: rotateY(180deg); /* Initially hide back side */
   z-index: 1; /* Back side should have lower z-index */
-  background-color: #0000ff; /* Example background color */
+  background-color: blue; /* Change background color to blue */
   border-radius: 10px;
   padding: 20px;
   color: white;
@@ -114,6 +102,53 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.load-more-btn {
+  width: 130px;
+  height: 40px;
+  background-color: grey;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.load-more-btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  color: white;
+}
+.load-more-btn:hover {
+  background-color: blue;
+}
+.btn-text-ct-ld-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-ct-ld-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.load-more-btn:hover .btn-text-ct-ld-one {
+  top: -100%;
+}
+
+.load-more-btn:hover .btn-text-ct-ld-two {
+  top: 50%;
+}
 @media only screen and (max-width: 568px) {
   .card {
     width: 100px;

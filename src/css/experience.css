@@ -11,16 +11,17 @@
 .experience-details h2 {
   margin-bottom: 5px;
   margin-left: 20px;
+  color: black;
 }
 
 .experience-details h4 {
   margin-top: 5px;
-  color: #712975;
+  color: grey;
   margin-left: 20px;
 }
 
 .experience-bullets {
-  list-style-type: disc;
+  list-style-type: square;
   margin-left: 20px;
   padding-left: 0;
 }
@@ -37,7 +38,7 @@
 }
 
 .experience-bullets li {
-  background-color: #6d577f;
+  background-color: rgba(15, 15, 15, 0.916);
   margin-left: 11px;
   border: 1px solid #545456;
   border-radius: 5px;

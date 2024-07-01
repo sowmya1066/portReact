@@ -4,7 +4,7 @@ import "../src/css/project.css";
 
 const cardsData = [
   {
-    backgroundColor: "#54E8A9",
+    backgroundColor: "blue",
     title: "Zero-cost Possibilities",
     description:
       "Hubble lets users borrow USDH for a one-time 0.5% fee. No variable rates. No interest charged, ever.",
@@ -64,7 +64,8 @@ const Project = () => {
       </div>
       {displayedCards < cardsData.length && (
         <button className="load-more-btn" onClick={loadMoreCards}>
-          Load More
+          <span class="btn-text-ct-ld-one">Loadmore</span>
+          <span class="btn-text-ct-ld-two">Click</span>
         </button>
       )}
     </div>
