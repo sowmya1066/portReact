@@ -10,12 +10,15 @@
   margin-top: 70px;
   font-size: 1.5rem;
 }
-
+.hero_para p {
+  color: black;
+}
 .hero_main {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
+  color: black;
 }
 
 .contact--btn {

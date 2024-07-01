@@ -15,7 +15,7 @@ export default function NavBar() {
   };
 
   return (
-    <div>
+    <div className="nav--main">
       <div className="ham--logo">
         <img src={Menu} className="nav-hamburger" onClick={toggleMenu} />
         <img src={Logo} alt="girl who likes to code" className="logo--small" />
@@ -25,9 +25,17 @@ export default function NavBar() {
           <img src={Logo} alt="girl who likes to code" />
         </div>
         <div className="nav--content">
-          <p>About</p>
-          <p>Contact</p>
-          <p>Resume</p>
+          <div className="nav-links-container">
+            <p>About</p>
+            <p>Contact</p>
+            <p>Work</p>
+          </div>
+        </div>
+        <div>
+          <button class="btn">
+            <span class="btn-text-one">Resume</span>
+            <span class="btn-text-two">Download</span>
+          </button>
         </div>
         <button className="nav-close-btn" onClick={closeMenu}>
           X

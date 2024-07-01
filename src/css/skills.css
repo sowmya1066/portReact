@@ -20,7 +20,7 @@
   overflow: hidden; /* Hide overflow to contain absolute positioned elements */
   position: relative; /* Ensure relative positioning for absolute child */
   cursor: pointer;
-  background-color: #1a1920;
+  background-color: black;
 
   /* Add animation */
   animation: rotate 6s infinite linear; /* Adjust duration (6s) and timing function as needed */
