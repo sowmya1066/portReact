@@ -16,7 +16,7 @@ export default function About() {
               technologies such as React for dynamic interfaces and Tailwind CSS
               for streamlined styling, I also bring expertise in backend systems
               with PostgreSQL and Docker for efficient data management and
-              deployment...!
+              deployment.
             </p>
             <p className="about-p">
               Passionate about leveraging technology to solve challenges, I am
