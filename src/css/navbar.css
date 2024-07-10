@@ -138,7 +138,7 @@
     left: -100%; /* Initially off-screen */
     width: 200px; /* Adjust as needed */
     height: 83vh;
-    background-color: #37055fea; /* White background */
+    background-color: #9a60c3ea; /* White background */
     transition: left 0.3s ease-in-out; /* Smooth sliding animation */
   }
 
