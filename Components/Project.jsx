@@ -39,7 +39,6 @@ const cardsData = [
     description:
       "Hubble lets users borrow USDH for a one-time 0.5% fee. No variable rates. No interest charged, ever.",
   },
-  // Additional cards omitted for brevity
 ];
 
 const Project = () => {
